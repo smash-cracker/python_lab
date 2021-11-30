@@ -7,7 +7,7 @@ if len(l1)==len(l2):
 else:
     print("Not of same length")
 if sum(l1)==sum(l2):
-    print("Sum is same");
+    print("Sum is same")
 else:
     print("Sum is not same")
 for x in l1:

@@ -4,4 +4,4 @@ for i,x in enumerate(l):
     if i%2==0:
         d[x]=l[i+1]
 print("In ascending order: ",sorted(d))
-print("In ascending order: ",sorted(d,reverse=True))
+print("In descending order: ",sorted(d,reverse=True))

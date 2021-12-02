@@ -1,8 +1,6 @@
-n1,n2 = input("Enter 2 numbers: ").split()
-n1 = int(n1)
-n2 = int(n2)
-gcd = 1
-for x in range(2,n1+1):
-    if n1%x == 0 and n2%x == 0:
-        gcd = x
-print(gcd)
+import math
+n1,n2 = input("Enter 2 numbers:").split()
+n1=int(n1)
+n2=int(n2)
+print("GCD is: ",end="")
+print(math.gcd(n1,n2))

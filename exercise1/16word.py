@@ -1,4 +1,4 @@
-l = input("Enter string: ").split()
+l = list(input("Enter string: "))
 checked = list()
 for x in l:
     if x not in checked:

@@ -1,6 +1,4 @@
 def area(l,b):
-    area = l*b
-    return area
+    return l*b
 def perimeter(l,b):
-    perimeter = 2*(l+b)
-    return perimeter
+    return 2*(l+b)

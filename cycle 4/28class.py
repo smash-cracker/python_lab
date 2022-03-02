@@ -3,12 +3,10 @@ class Rectangle:
         self.length = length
         self.breadth = breadth
     def area(self):
-        area = self.length*self.breadth
-        return area
+        return self.length*self.breadth
     def perimeter(self):
-        perimeter = 2*(self.length*self.breadth)
-        return perimeter
-        
+        return 2*(self.length*self.breadth)
+    
 a=int(input("Enter length of rectangle: "))
 b=int(input("Enter breadth of rectangle: "))
 rect = Rectangle(a,b)

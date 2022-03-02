@@ -1,6 +1,4 @@
 def area(r):
-    area = 3.14*r*r
-    return area
+    return 3.14*r*r
 def perimeter(r):
-    perimeter = 2*3.14*r
-    return perimeter
+    return 2*3.14*r

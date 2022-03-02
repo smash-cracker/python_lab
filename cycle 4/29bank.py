@@ -11,11 +11,19 @@ class BankAccount:
     def withdraw(self,amount):
         if self.balance > amount:
             self.balance = self.balance - amount
-            print("Rs ",amount, " credited to ", self.type , " account ", self.accNo)
+            print("Rs ",amount, " credited from ", self.type , " account ", self.accNo)
             print("Balance : ",self.balance)
         else:
             print("Insufficent balance!")
 
 c1 = BankAccount(14145, "denny", "savings", 5000)
-c1.deposit(2500)
-c1.withdraw(500)
+while True:
+    c = int(input("1. Deposit\n2. Withdraw\n"))
+    if c==1:
+        amount = int(input("Enter amount to deposit: "))
+        c1.deposit(amount)
+    elif c==2:
+        amount = int(input("Enter amount to withdraw: "))
+        c1.withdraw(amount)
+    else:
+        break
